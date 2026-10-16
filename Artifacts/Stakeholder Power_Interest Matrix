@@ -1,5 +1,50 @@
 # Stakeholder Power/Interest Matrix – IWMS Project
 
+
+# Stakeholder Power/Interest Matrix – IWMS Project
+
+**Purpose**  
+This visual matrix helps the project team prioritize stakeholder engagement based on their **Power (Influence)** and **Interest** in the project. It is designed to be easy for both technical and non-technical stakeholders to understand.
+
+---
+
+### Power/Interest Matrix
+
+```mermaid
+quadrantChart
+    title Stakeholder Power/Interest Matrix – IWMS Project
+    x-axis Low Interest --> High Interest
+    y-axis Low Power --> High Power
+    
+    quadrant-1 Keep Satisfied
+    quadrant-2 Manage Closely
+    quadrant-3 Monitor
+    quadrant-4 Keep Informed
+
+    %% === Manage Closely (High Power + High Interest) ===
+    "CIO" : 0.85, 0.92
+    "Change Manager" : 0.78, 0.88
+    "Project Manager" : 0.72, 0.82
+    "Head of IT" : 0.68, 0.75
+
+    %% === Keep Satisfied (High Power + Low Interest) ===
+    "Company Secretary" : 0.35, 0.88
+    "Head of Procurement" : 0.38, 0.82
+    "Finance" : 0.42, 0.78
+    "Legal" : 0.40, 0.72
+
+    %% === Keep Informed (Low Power + High Interest) ===
+    "Property Manager" : 0.82, 0.32
+    "Developers" : 0.78, 0.38
+    "Testers" : 0.75, 0.28
+    "Customers" : 0.88, 0.25
+    "Outsourced Call Centre Staff" : 0.80, 0.22
+
+    %% === Monitor (Low Power + Low Interest) ===
+    "Networking & Security" : 0.35, 0.42
+    "Training Manager" : 0.32, 0.38
+    "Legacy Systems Owners" : 0.38, 0.35
+    "Outsourced Call Centre Managers" : 0.30, 0.28
 **Purpose**  
 This matrix helps the project team understand how to engage different stakeholders based on their level of **Power** (influence) and **Interest** in the project. It is simple and visual so both technical and non-technical team members can easily understand engagement priorities.
 
