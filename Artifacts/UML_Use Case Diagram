@@ -1,0 +1,23 @@
+# UML Use Case Diagram – IWMS Public & Property Manager Module
+
+```mermaid
+flowchart TD
+    Actor1[Prospective Tenant] --> UC1[Search Properties]
+    Actor1 --> UC2[Create Tenant Profile]
+    Actor1 --> UC3[Submit Virtual Inspection Request]
+    
+    Actor2[Property Manager] --> UC4[View Real-time Occupancy]
+    Actor2 --> UC5[Manage Maintenance Requests]
+    Actor2 --> UC6[Handle Virtual Inspections]
+    
+    Actor3[HR Manager] --> UC7[Manage Remote Work Schedules]
+    Actor3 --> UC8[Approve Time-off Requests]
+    
+    System(IWMS System) --> UC1
+    System --> UC2
+    System --> UC3
+    System --> UC4
+    System --> UC5
+    System --> UC6
+    System --> UC7
+    System --> UC8
