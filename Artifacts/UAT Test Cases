@@ -1,0 +1,8 @@
+# User Acceptance Testing (UAT) – IWMS Virtual Inspection Feature
+
+| Test ID | Test Scenario                          | Steps                                                               | Expected Result                                      | Priority | Status |
+|---------|----------------------------------------|-----------------------------------------------------------------------|------------------------------------------------------|----------|--------|
+| UAT-01  | Prospective tenant submits inspection request | 1. Search for property<br>2. Click "Request Virtual Inspection"<br>3. Fill form & submit | Form submits successfully; confirmation email sent to tenant & assigned Property Manager | High     | Pass   |
+| UAT-02  | Property Manager views & responds to request | 1. Login as Property Manager<br>2. Navigate to "Inspection Requests"<br>3. Accept request & schedule time | Request moves to "Scheduled"; calendar invite generated | High     | Pass   |
+| UAT-03  | Invalid date selected                  | Select past date on request form                                      | Error message: "Please select a future date"         | Medium   | Pass   |
+| UAT-04  | System handles concurrent users        | 50 users submit requests simultaneously                               | All requests logged with no data loss or timeout     | High     | Pass   |
