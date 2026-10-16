@@ -1,0 +1,8 @@
+# Requirements Traceability Matrix (RTM) – IWMS Project (Sample)
+
+| Req ID | Requirement Description                          | Stakeholder   | Linked User Story | Test Case | Status     | Notes |
+|--------|--------------------------------------------------|---------------|-------------------|-----------|------------|-------|
+| FR-05  | Public property search + virtual inspection form | Prospective Tenant | US-03             | UAT-01    | Implemented | —     |
+| FR-04  | Facilities management – virtual inspections      | Property Manager   | US-04             | UAT-02    | In Progress | —     |
+| NFR-04 | Security – encryption & RBAC                     | Head of IT         | —                 | Security Scan | Validated | PIPEDA aligned |
+| FR-01  | Remote work program management                   | HR Manager         | US-01             | UAT-07    | Implemented | —     |
