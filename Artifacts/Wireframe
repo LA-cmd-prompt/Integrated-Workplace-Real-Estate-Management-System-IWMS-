@@ -1,1 +1,14 @@
+# Low-Fidelity Wireframe – Public Property Search Page
 
+| Header (Logo + Login)                          |
+|------------------------------------------------|
+| **Search Filters**                             |
+| Property Type: [Dropdown]   Location: [Dropdown] |
+| Price Range: [Slider]   Bedrooms: [1-5]        |
+| **Search Button**                              |
+|------------------------------------------------|
+| **Results Grid**                               |
+| [Card 1] Property Image | Type | Price | Beds | Location | [View Details] [Request Virtual Tour] |
+| [Card 2] ...                                   |
+|------------------------------------------------|
+| Footer (| © 2024 VDI Group)   |
