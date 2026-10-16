@@ -1,4 +1,4 @@
-# Integrated Workplace Real Estate Management-System-IWMS-
+# Integrated Workplace Real Estate Management System IWMS
 # IWMS Project – Requirements Specification (v2.0)
 
 **Client:** VDI Group  
