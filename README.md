@@ -25,7 +25,7 @@ All requirements have been reviewed for realism, testability, integration comple
 | Uptime                | “99.9% uptime availability” (absolute)                                     | “Target 99.9% uptime with defined maintenance windows and documented rollback procedures”                   | Sets realistic SLAs and makes the requirement actionable for architects |
 | Security              | “Robust security measures to protect sensitive information”                | “Industry-standard controls (encryption in transit/rest, RBAC, MFA support, regular vulnerability scanning); aligned with PIPEDA” | Makes it testable and auditable; demonstrates compliance awareness |
 | Integration           | “Ability to integrate with HR and accounting software”                     | “Bi-directional integration with QuickBooks and HR systems; error handling, logging, and data-sync monitoring required” | Reduces integration surprises and change requests |
-| Scalability           | “Accommodate 6000 staff and more at a time”                                | “Support minimum 6,000 concurrent users; designed for horizontal scaling; load testing required during implementation” | Forces architecture discussion early instead of late-stage refactoring |
+| Scalability           | “Accommodate 2000 virtual viewers and more at a time”                                | “Support minimum 2,000 concurrent users; designed for horizontal scaling; load testing required during implementation” | Forces architecture discussion early instead of late-stage refactoring |
 
 **Developer Lens Summary**  
 - Removed absolute, non-testable language  
